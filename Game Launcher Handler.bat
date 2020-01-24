@@ -20,6 +20,7 @@ REM : --------------------------------------------------------------------------
 REM : MAIN
 @echo Launching game (which should also launch the 3rd party launcher)...
 %GAME_PATH%
+
 :WAITLOOP1
 tasklist /FI "IMAGENAME eq %GAME_PROCESS%" 2>NUL | find /I /N %GAME_PROCESS%>NUL
 if "%ERRORLEVEL%"=="0" goto WAITLOOP2
