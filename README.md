@@ -1,11 +1,13 @@
 # Game Launcher Handler
 Do you like having all your games in one place? Inside one program, such as Steam?
+
 Do you like using Steam Big Picture to play on the couch where the keyboard and mouse is out of reach?
+
 Do you NOT like having other launcher programs like Uplay and Origin running in the background after you exit the game that required it?
 
 Well this little .bat script might be useful to you.
 
-This script will launch the game, which should also launch the needed launcher (such as Origin or Uplay), then it will run in the background while you play the game. Once it detects that the game's process is no longer running, it will wait 4 seconds (although you can edit this time) before killing the launcher process that you specify. This will also work with Steam games that come bundled with another launcher such as Assasin's Creed 2.
+This script will launch your game, which should also launch the needed launcher (such as Origin or Uplay), then it will run in the background while you play the game. Once it detects that the game's process is no longer running, it will wait 4 seconds (although you can edit this time) before killing the launcher process that you specify. This will also work with Steam games that come bundled with another launcher such as Assasin's Creed 2.
 
 
 # How To Use It
