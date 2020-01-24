@@ -22,6 +22,7 @@ The game's process name should be the same as it's .exe filename, but sometimes 
 The launcher's process name should also be the same as it's .exe filename, but you can also open task manager while the launcher is running to double check.
 * Origin = Origin.exe
 * Uplay = upc.exe
+
 Note that this did NOT work with Epic Games Launcher the last time I tried it, and it probably still doesn't. I don't use EGS anymore so it doesn't affect me.
 
 After you've edited the .bat file to your needs and renamed it to your game's title, you can convert your .bat file to an .exe file using a converter ([like this one](https://www.majorgeeks.com/files/details/bat_to_exe_converter.html)). Then, you can add that .exe file into Steam as a non-Steam game or into whatever launcher you choose.
